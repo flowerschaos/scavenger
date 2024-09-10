@@ -15,7 +15,7 @@
 }
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="625,200" size="100,100">You are Felix Mueller, a [[Grade 9 Fixer|ranking]] working for the recently established [[Feedback Office|office]]. You sit in a transport vehicle, on your way to... [[You don&#39;t want to think about it right now|home]].
 
-You sit in the [[middle right seat|map]].</tw-passagedata><tw-passagedata pid="2" name="ranking" tags="" position="750,325" size="100,100">//(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[&quot;Well, Mr. Mueller, I&#39;m rather impressed.&quot;]
+You sit in the [[middle seat|busmap]].</tw-passagedata><tw-passagedata pid="2" name="ranking" tags="" position="750,325" size="100,100">//(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[&quot;Well, Mr. Mueller, I&#39;m rather impressed.&quot;]
 &quot;You... are?&quot;
 (align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[&quot;Indeed. I wouldn&#39;t expect a fallen Feather to go directly into Fixer work.&quot;]
 &quot;It&#39;s... a complicated situation, ma&#39;am.&quot;
@@ -23,15 +23,17 @@ You sit in the [[middle right seat|map]].</tw-passagedata><tw-passagedata pid="2
 &quot;I&#39;m sure it is. We&#39;re all experiencing a hard time after your employer... unexpectedly collapsed, but you&#39;ll get on well soon enough. Good luck out there, Mueller.&quot;]
 &quot;I assume I&#39;ll need it.&quot; You crack your knuckles, fix your coat&#39;s collar, and begin to move out.//
 
-[[Stop daydreaming, Felix. You need to focus.|start]]</tw-passagedata><tw-passagedata pid="3" name="map" tags="" position="625,450" size="100,100">If you were to try and visualize the positioning of you and your crew, this is how you would do it.
+[[Stop daydreaming, Felix. You need to focus.|start]]</tw-passagedata><tw-passagedata pid="3" name="busmap" tags="" position="625,450" size="100,100">If you were to try and visualize the positioning of you and your crew, this is how you would do it.
 
-[[Wyatt]]
-[[Persephone]]
-[[Steven]]
-[[Jack]]
-[[You]]
+[[Wyatt]] is in the &#39;&#39;driver&#39;s&#39;&#39; seat.
+[[Persephone]] is in the &#39;&#39;passenger&#39;&#39; seat.
+[[Steven]] is in the &#39;&#39;left&#39;&#39; seat.
+[[You]] are in the &#39;&#39;middle&#39;&#39; seat.
+[[Jack]] is in the &#39;&#39;right&#39;&#39; seat.
 
-The van comes to a stop, and Wyatt whistles. &quot;Hey! Guys! We&#39;re here!&quot;</tw-passagedata><tw-passagedata pid="4" name="office" tags="" position="625,325" size="100,100">//Another month without any stable job. Odd jobs for cash is acceptable when you&#39;re able to use your old uniform for sympathy, but your luck&#39;s run out. Throwing the apron from your now-former employer into a dumpster, you sit at the bus stop, grumbling. Your vision goes white.
+The van comes to a stop, and Wyatt whistles. &quot;Hey! Guys! We&#39;re here!&quot;
+
+[[Exit the van.|dungeoneering]]</tw-passagedata><tw-passagedata pid="4" name="office" tags="" position="625,325" size="100,100">//Another month without any stable job. Odd jobs for cash is acceptable when you&#39;re able to use your old uniform for sympathy, but your luck&#39;s run out. Throwing the apron from your now-former employer into a dumpster, you sit at the bus stop, grumbling. Your vision goes white.
 
 Wait, no, not white. A paper&#39;s hit you in the face. Even the wind&#39;s spitting at you. Just great. Planning to crumple it up and throw it away, something compels you to stop and read the paper.
 
@@ -58,15 +60,87 @@ A Project Moon fanwork, made in Twine
 
 [[Look out the window.|start]]</tw-passagedata><tw-passagedata pid="7" name="Wyatt" tags="" position="625,575" size="100,100">Wyatt Parker, Feedback Office&#39;s Operator, with a weapon of choice of a sword. A well-meaning yet somewhat naive person who seems to always be somewhat spaced out, saying that they&#39;re &quot;looking into the mirror&quot; when asked about it. It&#39;s.. a little creepy, but nothing you aren&#39;t used to at this point. They&#39;re driving the van.
 
-[[Back|map]]</tw-passagedata><tw-passagedata pid="8" name="Persephone" tags="" position="750,575" size="100,100">Persephone Rowan, Feedback Office&#39;s Representative, with a weapon of choice of a baseball bat covered in nails. She&#39;s nice, but distant, focused more on her many, many responsibilities than engaging in small talk. Currently, she&#39;s listening to Wyatt talk about something (a dream they had, maybe?) while filing things out in her ledger.
+[[Back|busmap]]</tw-passagedata><tw-passagedata pid="8" name="Persephone" tags="" position="750,575" size="100,100">Persephone Rowan, Feedback Office&#39;s Representative, with a weapon of choice of a baseball bat covered in nails. She&#39;s nice, but distant, focused more on her many, many responsibilities than engaging in small talk. Currently, she&#39;s listening to Wyatt talk about something (a dream they had, maybe?) while filing things out in her ledger.
 
-[[Back|map]]</tw-passagedata><tw-passagedata pid="9" name="Steven" tags="" position="500,575" size="100,100">Steven Lancaster, the local guide to Workshops and their gear, armed (heh) with a pair of gauntlets. If Persephone&#39;s the Representative to the general City, he&#39;s your representative to markets. He&#39;s arguing with Jack over Fixer merchandise, you think.
+[[Back|busmap]]</tw-passagedata><tw-passagedata pid="9" name="Steven" tags="" position="500,575" size="100,100">Steven Lancaster, the local guide to Workshops and their gear, armed (heh) with a pair of gauntlets. If Persephone&#39;s the Representative to the general City, he&#39;s your representative to markets. He&#39;s arguing with Jack over Fixer merchandise, you think.
 
-[[Back|map]]</tw-passagedata><tw-passagedata pid="10" name="Jack" tags="" position="562.5,700" size="100,100">Jack Bridges, mostly a mystery. It&#39;s not that he doesn&#39;t talk much, he just doesn&#39;t say much about //himself//. He carries an electrified hatchet as a weapon, and he can be incredibly scary with it when needed.
+[[Back|busmap]]</tw-passagedata><tw-passagedata pid="10" name="Jack" tags="" position="562.5,700" size="100,100">Jack Bridges, mostly a mystery. It&#39;s not that he doesn&#39;t talk much, he just doesn&#39;t say much about //himself//. He carries an electrified hatchet as a weapon, and he can be incredibly scary with it when needed.
 
-[[Back|map]]</tw-passagedata><tw-passagedata pid="11" name="You" tags="" position="687.5,700" size="100,100">You! Felix, who is apparently vital to the current mission of the Office. Apparently, there&#39;s something in the ruins of the old Lobotomy Corp. branches that people are vying for. Something involving a bow? Maybe? You&#39;re not entirely sure.
+[[Back|busmap]]</tw-passagedata><tw-passagedata pid="11" name="You" tags="" position="687.5,700" size="100,100">You! Felix, who is apparently vital to the current mission of the Office. Apparently, there&#39;s something in the ruins of the old Lobotomy Corp. branches that people are vying for. Something involving a bow? Maybe? You&#39;re not entirely sure.
 
-[[Back|map]]</tw-passagedata></tw-storydata>
+[[Back|busmap]]</tw-passagedata><tw-passagedata pid="12" name="dungeoneering" tags="" position="625,825" size="100,100">&quot;Alright, heads up, everyone.&quot; Persephone smacks the floor with her bat. &quot;There are other groups of Fixers here, but we&#39;ve got a few things on our side.&quot; She grins. &quot;One, we&#39;re an actual Office, and we are //not// going to take the money and leave the others in the dust. You all hear me? Remember what happened to Pete?&quot;
+
+You don&#39;t know who Pete is, just that he&#39;s the guy who was here before you joined, and he disappeared the last time they came to a branch. Poor guy probably came right into the path of an Abnormality. .. Oh, god, the Abnormalities.
+
+&quot;Second. We got a man on the inside.&quot; She slaps you on the back. &quot;You know this place inside and out, right, Felix?&quot;
+
+You shake your head a little. &quot;I mean, I know the general facility layout, but if you go further down than Asi... Uh, the uppermost layer, and my memory gets a little hazier.&quot;
+
+&quot;Eh, good enough.&quot; Steven shrugs, picking at debris stuck in the cracks of his right gauntlet.
+
+&quot;You sure you know where you&#39;re going?&quot; Jack squints, looking up at you, taking a moment from retying his boots.
+
+&quot;Yeah. I know what I&#39;m doing. I, uh... I might get a little... more on edge in there, guess I&#39;ll apologize in advance. It&#39;s already hard going back there, but.. this is going to be, uh, a bit of a personal hell for me, I guess.&quot;
+
+While the rest of the office warms up their weapons and triple-checks their gear, Persephone pulls you to the side.
+
+&quot;Are you sure you want to do this, Felix?&quot;
+
+[[&quot;If you go in there alone, you&#39;ll get yourselves killed. Someone&#39;s gotta help you out.&quot;|proceed]]
+[[&quot;No, but what&#39;s the worst that could happen?&quot;|proceed]]</tw-passagedata><tw-passagedata pid="13" name="proceed" tags="" position="625,950" size="100,100">She sighs. &quot;If you&#39;re sure.&quot;
+
+You stand outside for a minute, and walk in after the others. Steven repeatedly pushes the elevator buttons. So it&#39;s broken. Great.
+
+&quot;Maybe there&#39;s another entrance?&quot; Wyatt calls over his shoulder.
+
+&quot;Uh... Kind of by design, that&#39;s the only way in or out of the facility.&quot; You scratch your neck with your mechanical arm; yet another thing this place has taken from you.
+
+&quot;Well, then maybe we can fix the elevator?&quot; Persephone calls, before knocking on a panel.
+
+Try to fix the elevator.
+
+(click-replace:&quot;Try to fix the elevator.&quot;)[Before you&#39;re able to respond, a (text-colour:#d8d556)+(text-style:&quot;smear&quot;)[&#39;&#39;voice&#39;&#39;] rings through the somehow still functioning intercom.
+
+The rest of the group flinches, but you recognize the voice well. It&#39;s your old boss, of course.
+
+(text-colour:#d8d556)+(text-style:&quot;smear&quot;)[&#39;&#39;&quot;He--o the--! Wel-om- -o t-e m--n L-b-t--y C-r-or-t--n br---h o- Dist-ict Th--t--n!&quot;&#39;&#39;]
+
+On the slightly ajar panel, a visage of Malkuth appears. Wyatt waves, but Jack shakes his head. &quot;It&#39;s a static image...&quot;
+
+You sigh, walking up to it. &quot;Good morning. The elevator seems to be malfunctioning. How do we repair it?&quot;
+
+She gasps. (text-colour:#d8d556)+(text-style:&quot;smear&quot;)[&#39;&#39;&quot;Oh dear! I&#39;ll call someone to help.&quot;&#39;&#39;]
+
+A moment passes. Then another moment.
+
+(text-colour:#d8d556)+(text-style:&quot;smear&quot;)[&#39;&#39;&quot;I can&#39;t seem to contact anyone...&quot;&#39;&#39;]
+
+&quot;We can manage it ourselves. There&#39;s a repair kit somewhere, right?&quot;
+
+(text-colour:#d8d556)+(text-style:&quot;smear&quot;)[&#39;&#39;&quot;Uh... Oh! Oh, yes! It&#39;s in a drawer... somewhere up there.&quot;&#39;&#39;]
+
+The connection stops. An end, for now.
+
+&quot;Uh... we should get lookin&#39;, then...&quot;
+
+[[Search the lobby.|checkinfo]]
+]</tw-passagedata><tw-passagedata pid="14" name="checkinfo" tags="" position="625,1075" size="100,100">(b4r:&quot;dotted&quot;)+(b4r-colour:white)[Checks are, well, checks, of your ability in four main categories:
+(text-colour:#b82428)+(bg:black)[&#39;&#39;Fortitude&#39;&#39;] (Your physical strength)
+(text-colour:#efecc0)+(bg:black)[&#39;&#39;Prudence&#39;&#39;] (Your mental strength)
+(text-colour:#814a84)+(bg:black)[&#39;&#39;Temperance&#39;&#39;] (Your efficiency)
+(text-colour:#3fccbd)+(bg:black)[&#39;&#39;Justice&#39;&#39;] (Your speed)
+
+These checks are done by rolling a d20 and adding 2 for each point out of five in a given stat.
+
+Unfortunately for you, if a prime Lobotomy Corporation department is a bag of popcorn, Feedback Office is a bunch of assorted half-popped kernels at the bottom of the bag. You aren&#39;t very good at these stats individually, and you are collectively mediocre.
+
+You can view the Office&#39;s statistics at any time, as well as the map of your current location, in the [[menu]].
+
+Still, work must be done. With that in mind...]
+
+Who do you want to send to find the kit?
+
+(click-replace:&quot;Who do you want to send to find the kit?&quot;)[</tw-passagedata><tw-passagedata pid="15" name="menu" tags="" position="300,600" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
